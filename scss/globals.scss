@@ -1,0 +1,17 @@
+body {
+  font-size: 18px;
+}
+.d-flex {
+  display: flex;
+}
+#parent {
+  border: 0.1px solid black;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#parent > div {
+  border: 0.1px solid black;
+  // top right bottom left
+  padding: 0 5px 0 5px;
+  margin: 0 1px 0 1px;
+}
